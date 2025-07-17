@@ -8,24 +8,20 @@ app.controller("MainController", function($scope) {
     $scope.skills = ["C", "Java", "Python", "HTML", "CSS", "JavaScript", "AngularJS", "MongoDB", "Firebase"];
 
     $scope.projects = [
-        {
-            name: "Smart Fire Alarm System",
-            description: "An IoT-based system that detects fire and notifies users via alerts.",
-            link: "https://github.com/your-github/smart-fire-alarm"
-        },
-        {
-            name: "EduMate: AI-Powered Learning",
-            description: "A personalized learning platform using AI/ML to recommend content and track progress.",
-            link: "https://github.com/your-github/edumate"
-        },
-        {
-            name: "Network Intrusion Detection",
-            description: "ML-based system to detect and classify potential network threats in real-time.",
-            link: "https://github.com/your-github/nids"
-        }
-    ];
+    
+    {
+        name: "Doctor Availability & Appointment AI System",
+        description: "AI-integrated platform to manage hospital doctor availability and automate appointment scheduling.",
+        link: "https://github.com/Asheeka1724/Doctor-Availability-and-Appointment-Allocation-in-Hospitals-through-AI-Integration"
+    },
+    {
+        name: "Task Scheduler with Email Alerts",
+        description: "A PHP-based task scheduling system with CRON job, email reminders, and text file storage.",
+        link: "https://github.com/Asheeka1724/task-scheduler-Asheeka1724"
+    }
+];
 
-    $scope.email = "asheekahn3332@gmail.com";
+    $scope.email = "asheekahn333@gmail.com";
     $scope.phone = "8722790767";
     $scope.linkedin = "https://www.linkedin.com/in/asheekahn1724";
 });
